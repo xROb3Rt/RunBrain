@@ -12,10 +12,10 @@ public class InstructionDialog extends AppCompatDialogFragment {
     public Dialog onCreateDialog(Bundle savedInstancesState){
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("Instructions for each mini-game")
-                .setMessage("Figures: Identify if the figures are identical.\n" +
-                        "Arrows: \n" +
-                        "Words: \n")
+        builder.setTitle("Instrucciones para cada mini-juego")
+                .setMessage("Images: Memoriza las imagenes para responder correctamente.\n" +
+                        "Arrows: Indica la direccion de la flecha central utilizando los botones.\n" +
+                        "Words: Memoriza la lista de palabras para acertar.\n")
                 .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {}
